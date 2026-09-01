@@ -23,4 +23,8 @@ public class Review {
     @ManyToOne
     @JoinColumn(name = "pg_id")
     private PG pg;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 }

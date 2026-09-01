@@ -1,4 +1,4 @@
-package org.bridgelabz.pgforyou.junittesting;
+package org.bridgelabz.pgforyou.exception;
 
 public class PGNotFoundException extends RuntimeException {
     public PGNotFoundException(String message) {

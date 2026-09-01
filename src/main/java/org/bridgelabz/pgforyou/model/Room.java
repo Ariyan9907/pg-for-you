@@ -29,7 +29,6 @@ public class Room {
     @JoinColumn(name = "pg_id")
     private PG pg;
 
-
 }
 
 

@@ -3,7 +3,7 @@ package org.bridgelabz.pgforyou.service;
 import lombok.RequiredArgsConstructor;
 import org.bridgelabz.pgforyou.dto.request.PGRequestDTO;
 import org.bridgelabz.pgforyou.dto.response.PGResponseDTO;
-import org.bridgelabz.pgforyou.junittesting.PGNotFoundException;
+import org.bridgelabz.pgforyou.exception.PGNotFoundException;
 import org.bridgelabz.pgforyou.model.PG;
 import org.bridgelabz.pgforyou.repository.PGRepository;
 import org.springframework.data.domain.Page;
