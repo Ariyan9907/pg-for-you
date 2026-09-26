@@ -69,6 +69,7 @@
         </c:choose>
     </div>
 
+
     <div class="pg-grid">
         <c:choose>
            <c:when test="${not empty pgs}">
@@ -96,3 +97,4 @@
 
 </body>
 </html>
+
